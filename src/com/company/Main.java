@@ -49,16 +49,14 @@ public class Main {
 		dog.feed(0.5);
 		dog.walk(1.7);
 		dog.walk(1.7);
-		dog.walk(1.7);
-		dog.walk(1.7);
-		dog.walk(1.7);
-		dog.walk(1.7);
-		dog.walk(1.7);
-		dog.walk(1.7);
-		dog.walk(1.7);
-		dog.walk(1.7);
-		dog.walk(1.7);
 
+		Car audi = new Car();
+		audi.name = "audi";
+		audi.age = 3.0;
+		audi.capacity = 10.0;
+
+		System.out.println(audi.name);
+		System.out.println(audi.age);
 
 	}
 
