@@ -16,6 +16,7 @@ public class Animal2 {
         } else {
             weight += foodWeight;
             System.out.println("thx for feed, my weight is now " + weight);
+            System.out.println("cos nowego");
         }
     }
 
